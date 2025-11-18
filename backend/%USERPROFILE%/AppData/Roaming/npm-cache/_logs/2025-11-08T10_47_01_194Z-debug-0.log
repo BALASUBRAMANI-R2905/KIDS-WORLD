@@ -1,0 +1,153 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v22.12.0
+3 silly config load:file:C:\Users\ADMIN\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\ADMIN\Desktop\BALA\Ecommerce App\backend\.npmrc
+5 silly config load:file:C:\Users\ADMIN\.npmrc
+6 silly config load:file:C:\Users\ADMIN\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install express cors
+8 verbose argv "install" "express" "cors"
+9 verbose logfile logs-max:10 dir:C:\Users\ADMIN\Desktop\BALA\Ecommerce App\backend\%USERPROFILE%\AppData\Roaming\npm-cache\_logs\2025-11-08T10_47_01_194Z-
+10 verbose logfile C:\Users\ADMIN\Desktop\BALA\Ecommerce App\backend\%USERPROFILE%\AppData\Roaming\npm-cache\_logs\2025-11-08T10_47_01_194Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest cors@^2.8.5
+16 silly packumentCache full:https://registry.npmjs.org/cors cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/cors 327ms (cache revalidated)
+18 silly packumentCache full:https://registry.npmjs.org/cors set size:73833 disposed:false
+19 silly fetch manifest express@^5.1.0
+20 silly packumentCache full:https://registry.npmjs.org/express cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/express 81ms (cache revalidated)
+22 silly packumentCache full:https://registry.npmjs.org/express set size:796302 disposed:false
+23 silly placeDep ROOT cors@2.8.5 REPLACE for: ecommerce-app@1.0.0 want: ^2.8.5
+24 silly placeDep ROOT express@5.1.0 REPLACE for: ecommerce-app@1.0.0 want: ^5.1.0
+25 silly reify moves {}
+26 silly audit bulk request {
+26 silly audit   '@mongodb-js/saslprep': [ '1.3.2' ],
+26 silly audit   '@types/webidl-conversions': [ '7.0.3' ],
+26 silly audit   '@types/whatwg-url': [ '11.0.5' ],
+26 silly audit   accepts: [ '2.0.0' ],
+26 silly audit   anymatch: [ '3.1.3' ],
+26 silly audit   'balanced-match': [ '1.0.2' ],
+26 silly audit   bcrypt: [ '6.0.0' ],
+26 silly audit   'binary-extensions': [ '2.3.0' ],
+26 silly audit   'body-parser': [ '2.2.0' ],
+26 silly audit   'brace-expansion': [ '1.1.12' ],
+26 silly audit   braces: [ '3.0.3' ],
+26 silly audit   bson: [ '6.10.4' ],
+26 silly audit   bytes: [ '3.1.2' ],
+26 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+26 silly audit   'call-bound': [ '1.0.4' ],
+26 silly audit   chokidar: [ '3.6.0' ],
+26 silly audit   'concat-map': [ '0.0.1' ],
+26 silly audit   'content-disposition': [ '1.0.0' ],
+26 silly audit   'content-type': [ '1.0.5' ],
+26 silly audit   cookie: [ '0.7.2' ],
+26 silly audit   'cookie-signature': [ '1.2.2' ],
+26 silly audit   debug: [ '4.4.3' ],
+26 silly audit   depd: [ '2.0.0' ],
+26 silly audit   dotenv: [ '17.2.3' ],
+26 silly audit   'dunder-proto': [ '1.0.1' ],
+26 silly audit   'ee-first': [ '1.1.1' ],
+26 silly audit   encodeurl: [ '2.0.0' ],
+26 silly audit   'es-define-property': [ '1.0.1' ],
+26 silly audit   'es-errors': [ '1.3.0' ],
+26 silly audit   'es-object-atoms': [ '1.1.1' ],
+26 silly audit   'escape-html': [ '1.0.3' ],
+26 silly audit   etag: [ '1.8.1' ],
+26 silly audit   'fill-range': [ '7.1.1' ],
+26 silly audit   finalhandler: [ '2.1.0' ],
+26 silly audit   forwarded: [ '0.2.0' ],
+26 silly audit   fresh: [ '2.0.0' ],
+26 silly audit   fsevents: [ '2.3.3' ],
+26 silly audit   'function-bind': [ '1.1.2' ],
+26 silly audit   'get-intrinsic': [ '1.3.0' ],
+26 silly audit   'get-proto': [ '1.0.1' ],
+26 silly audit   'glob-parent': [ '5.1.2' ],
+26 silly audit   gopd: [ '1.2.0' ],
+26 silly audit   'has-flag': [ '3.0.0' ],
+26 silly audit   'has-symbols': [ '1.1.0' ],
+26 silly audit   hasown: [ '2.0.2' ],
+26 silly audit   'http-errors': [ '2.0.0' ],
+26 silly audit   statuses: [ '2.0.1', '2.0.2' ],
+26 silly audit   'iconv-lite': [ '0.6.3', '0.7.0' ],
+26 silly audit   'ignore-by-default': [ '1.0.1' ],
+26 silly audit   inherits: [ '2.0.4' ],
+26 silly audit   'ipaddr.js': [ '1.9.1' ],
+26 silly audit   'is-binary-path': [ '2.1.0' ],
+26 silly audit   'is-extglob': [ '2.1.1' ],
+26 silly audit   'is-glob': [ '4.0.3' ],
+26 silly audit   'is-number': [ '7.0.0' ],
+26 silly audit   'is-promise': [ '4.0.0' ],
+26 silly audit   kareem: [ '2.6.3' ],
+26 silly audit   'math-intrinsics': [ '1.1.0' ],
+26 silly audit   'media-typer': [ '1.1.0' ],
+26 silly audit   'memory-pager': [ '1.5.0' ],
+26 silly audit   'merge-descriptors': [ '2.0.0' ],
+26 silly audit   'mime-db': [ '1.54.0' ],
+26 silly audit   'mime-types': [ '3.0.1' ],
+26 silly audit   minimatch: [ '3.1.2' ],
+26 silly audit   mongodb: [ '6.20.0' ],
+26 silly audit   'mongodb-connection-string-url': [ '3.0.2' ],
+26 silly audit   mongoose: [ '8.19.2' ],
+26 silly audit   mpath: [ '0.9.0' ],
+26 silly audit   mquery: [ '5.0.0' ],
+26 silly audit   ms: [ '2.1.3' ],
+26 silly audit   negotiator: [ '1.0.0' ],
+26 silly audit   'node-addon-api': [ '8.5.0' ],
+26 silly audit   'node-gyp-build': [ '4.8.4' ],
+26 silly audit   nodemon: [ '3.1.10' ],
+26 silly audit   'normalize-path': [ '3.0.0' ],
+26 silly audit   'object-assign': [ '4.1.1' ],
+26 silly audit   'object-inspect': [ '1.13.4' ],
+26 silly audit   'on-finished': [ '2.4.1' ],
+26 silly audit   once: [ '1.4.0' ],
+26 silly audit   parseurl: [ '1.3.3' ],
+26 silly audit   'path-to-regexp': [ '8.3.0' ],
+26 silly audit   picomatch: [ '2.3.1' ],
+26 silly audit   'proxy-addr': [ '2.0.7' ],
+26 silly audit   'pstree.remy': [ '1.1.8' ],
+26 silly audit   punycode: [ '2.3.1' ],
+26 silly audit   qs: [ '6.14.0' ],
+26 silly audit   'range-parser': [ '1.2.1' ],
+26 silly audit   'raw-body': [ '3.0.1' ],
+26 silly audit   readdirp: [ '3.6.0' ],
+26 silly audit   router: [ '2.2.0' ],
+26 silly audit   'safe-buffer': [ '5.2.1' ],
+26 silly audit   'safer-buffer': [ '2.1.2' ],
+26 silly audit   semver: [ '7.7.3' ],
+26 silly audit   send: [ '1.2.0' ],
+26 silly audit   'serve-static': [ '2.2.0' ],
+26 silly audit   setprototypeof: [ '1.2.0' ],
+26 silly audit   'side-channel': [ '1.1.0' ],
+26 silly audit   'side-channel-list': [ '1.0.0' ],
+26 silly audit   'side-channel-map': [ '1.0.1' ],
+26 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+26 silly audit   sift: [ '17.1.3' ],
+26 silly audit   'simple-update-notifier': [ '2.0.0' ],
+26 silly audit   'sparse-bitfield': [ '3.0.3' ],
+26 silly audit   'supports-color': [ '5.5.0' ],
+26 silly audit   'to-regex-range': [ '5.0.1' ],
+26 silly audit   toidentifier: [ '1.0.1' ],
+26 silly audit   touch: [ '3.1.1' ],
+26 silly audit   tr46: [ '5.1.1' ],
+26 silly audit   'type-is': [ '2.0.1' ],
+26 silly audit   undefsafe: [ '2.0.5' ],
+26 silly audit   unpipe: [ '1.0.0' ],
+26 silly audit   vary: [ '1.1.2' ],
+26 silly audit   'webidl-conversions': [ '7.0.0' ],
+26 silly audit   'whatwg-url': [ '14.2.0' ],
+26 silly audit   wrappy: [ '1.0.2' ],
+26 silly audit   cors: [ '2.8.5' ],
+26 silly audit   express: [ '5.1.0' ]
+26 silly audit }
+27 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 304ms
+28 silly audit report {}
+29 verbose cwd C:\Users\ADMIN\Desktop\BALA\Ecommerce App\backend
+30 verbose os Windows_NT 10.0.19045
+31 verbose node v22.12.0
+32 verbose npm  v11.6.2
+33 verbose exit 0
+34 info ok

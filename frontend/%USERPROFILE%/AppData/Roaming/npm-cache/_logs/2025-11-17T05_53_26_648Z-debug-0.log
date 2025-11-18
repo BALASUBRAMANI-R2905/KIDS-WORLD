@@ -1,0 +1,20 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v22.12.0
+3 silly config load:file:C:\Users\ADMIN\AppData\Roaming\npm\node_modules\npm\npmrc
+4 silly config load:file:c:\Users\ADMIN\Desktop\BALA\Ecommerce App\frontend\.npmrc
+5 silly config load:file:C:\Users\ADMIN\.npmrc
+6 silly config load:file:C:\Users\ADMIN\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm view postcss description dist-tags.latest homepage version time
+8 verbose argv "view" "--json" "--" "postcss" "description" "dist-tags.latest" "homepage" "version" "time"
+9 verbose logfile logs-max:10 dir:c:\Users\ADMIN\Desktop\BALA\Ecommerce App\frontend\%USERPROFILE%\AppData\Roaming\npm-cache\_logs\2025-11-17T05_53_26_648Z-
+10 verbose logfile c:\Users\ADMIN\Desktop\BALA\Ecommerce App\frontend\%USERPROFILE%\AppData\Roaming\npm-cache\_logs\2025-11-17T05_53_26_648Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 http fetch GET 200 https://registry.npmjs.org/postcss 665ms (cache revalidated)
+14 verbose cwd c:\Users\ADMIN\Desktop\BALA\Ecommerce App\frontend
+15 verbose os Windows_NT 10.0.19045
+16 verbose node v22.12.0
+17 verbose npm  v11.6.2
+18 verbose exit 0
+19 info ok
